@@ -5,7 +5,7 @@ export type ReviewsDocument = Reviews & Document;
 
 @Schema()
 export class Reviews {
-  @Prop({ required: true })
+  @Prop({ required: false })
   place: string;
 
   @Prop({ required: true })
